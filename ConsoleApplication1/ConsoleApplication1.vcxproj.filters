@@ -150,6 +150,9 @@
     <ClInclude Include="Message.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="RegisterCenter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

@@ -190,6 +190,7 @@
     <ClInclude Include="Message.h" />
     <ClInclude Include="NetTool.h" />
     <ClInclude Include="noncopyable.h" />
+    <ClInclude Include="RegisterCenter.h" />
     <ClInclude Include="Server.h" />
     <ClInclude Include="Socket.h" />
     <ClInclude Include="stdafx.h" />

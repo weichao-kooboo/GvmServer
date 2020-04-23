@@ -9,6 +9,8 @@
 #include "gvmServer.h"
 using namespace std;
 
+#include "RegisterCenter.h"
+
 
 #include <WinSock2.h>
 #include <Windows.h>
@@ -34,6 +36,8 @@ int main() {
 	//t.init();
 	gvmServer gvm(string("192.168.0.104"), 9992);
 	//gvm.init();
+
+	tool::RegisterCenter<int>::CreateInstance();
 	int x;
 	cin >> x;
 }
