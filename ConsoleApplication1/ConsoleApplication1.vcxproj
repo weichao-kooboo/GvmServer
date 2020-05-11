@@ -152,7 +152,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CALLBACK.h" />
+    <ClInclude Include="Center.h" />
     <ClInclude Include="Channel.h" />
+    <ClInclude Include="classA.h" />
     <ClInclude Include="gvmServer.h" />
     <ClInclude Include="include\evdns.h" />
     <ClInclude Include="include\event.h" />
@@ -198,7 +200,9 @@
     <ClInclude Include="test.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Center.cpp" />
     <ClCompile Include="Channel.cpp" />
+    <ClCompile Include="classA.cpp" />
     <ClCompile Include="ConsoleApplication1.cpp" />
     <ClCompile Include="gvmServer.cpp" />
     <ClCompile Include="include\getopt.c" />

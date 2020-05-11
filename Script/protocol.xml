@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<main>
+<class name="other">
+    <method name="ping" prflow="p2p">
+        <param prtype="long" prname="timestamp"></param>
+    </method>
+</class>
+<class name="class1">
+</class>
+</main>
